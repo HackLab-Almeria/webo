@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<!-- hecho con Skeleton -->
+<html lang="es">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Basic Page Needs
+	================================================== -->
+    <meta charset="utf-8">
+    <title>Encuentro e intercambio de experiencias para emprendedores tecnológicos de Almería﻿</title>
+    <meta name="description" content="Encuentro e intercambio de experiencias para emprendedores tecnológicos de Almería﻿">
+    <meta name="author" content="Ismael Olea">
+    <!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>		<![endif]-->
+    <!-- Mobile Specific Metas
+	================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- CSS
+	================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/docs.css">
+    <!-- Favicon
+	================================================== -->
+    <link rel="shortcut icon" href="css/favicon.ico">
+    <style>#adzerk_by {display:none}
+
+	/* vert */
+	.carbonad {background-color:#FBFBFB;border:2px solid #E8E8E8;height:215px;line-height:1.2;width:150px;}
+	.carbonad-img {float:left;height:100px;margin-left:11px;margin-top:11px;width:130px;}
+	.carbonad-text {color:#545454;float:left;font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:normal;height:50px;margin-left:15px;margin-top:9px;width:119px;}
+	.carbonad-text a {color: #545454;text-decoration: none;font-weight: bold;}
+	.carbonad-tag {color:#999999;float:left;font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:normal;margin-left:17px;margin-top:15px;padding-top:5px;}
+	.carbonad-tag a {color: #999999;text-align: center;text-decoration: none;font-weight: bold;}
+</style><link type="text/css" rel="stylesheet" href="chrome-extension://cpngackimfmofbokmjmljamhdncknpmg/style.css">
+    <script type="text/javascript" charset="utf-8" src="chrome-extension://cpngackimfmofbokmjmljamhdncknpmg/page_context.js"></script>
+  </head>
+  <body screen_capture_injected="true" data-twttr-rendered="true">
+    <div class="container">
+      <div class="three columns sidebar">
+        <nav>
+          <ul>
+            <li><a href="#descripcion">Descripción</a></li>
+            <li><a href="#invitado">Invitado especial</a></li>
+            <li><a href="#expositores">Expositores</a></li>
+            <li><a href="#programa">Programa</a></li>
+            <li><a href="#localizacion">Localización</a></li>
+            <li><a href="#inscripcion">Inscripción</a></li>
+            <li><a href="#realimentacion">Realimentación</a></li>
+          </ul>
+          <div> <a href="#developers"><img src="img/developers_logo.png"></a> </div>
+        </nav>
+        &nbsp; </div>
+      <div class="twelve columns offset-by-one content">
+        <header>
+          <h1>Encuentro e intercambio de experiencias para emprendedores tecnológicos</h1>
+          <h2>5 de diciembre de 2013 / Almería</h2>
+        </header>
+        <hr class="large">
+        <div class="doc-section" id="descripcion">
+          <h3>Descripción</h3>
+          <p class="parrafodescripcion"> Éste encuentro para emprendedores y empresarios tecnológicos de Almería se ha concebido para el intercambio de experiencias de personas inquietas con proyectos tecnológicos de empresa ya en marcha o en avanzado estado de preparación. <br>
+            <br>
+            Será especialmente práctico: intervenciones cortas de los expositores y una amplia sesión de preguntas y respuestas, breves intervenciones desde el público y fomento del debate.<br>
+            <br>
+            Tras acabar, quienes lo deseen podrán coincidir en un bar cercano para tapear y profundizar contactos.<br>
+          </p>
+          <hr>
+          <div class="row clearfix" id="invitado">
+            <h3>Invitado especial</h3>
+            <div class="four columns alpha"> <img src="img/andresleonardo.jpg"
+                alt="Andrés L. Martínez" height="113" width="220"> </div>
+            <div class="eight columns omega">
+              <h5><a href="https://plus.google.com/104070495650441591893">Andrés L. Martínez</a></h5>
+              <p>Developer Program Manager, Google España</p>
+              <p>With wide experience in R&amp;D+i at Telecommunication and Software Engineering sector, I have been always working developing, transferring and promoting innovative technologies. Also I have been founder in a couple of non fully successful startups. Starting on April 2013, I am glad to be part of Developer Relations team at Google.</p>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="row clearfix" id="expositores">
+          <h3>Expositores</h3>
+          <div class="six columns alpha">
+            <h5><a href="http://www.linkedin.com/pub/carlos-cano/17/403/4b2">Carlos Cano</a> </h5>
+            <p>Profesor de Creación y Dirección de Empresas en la UAL<br>
+              <br>
+              Actualmente ocupa el puesto de Coordinador de la Unidad de Proyectos e Iniciativas Emprendedoras de la Universidad de Almería, coordina varios proyectos institucionales de fomento del emprendimiento (Feria de las Ideas, Premio de Iniciativas Emprendedoras…) y es Secretario del Colegio de Economistas de Almería. </p>
+          </div>
+          <div class="six columns omega">
+            <h5><a href="http://es.linkedin.com/pub/alfonso-castellano/19/648/240">Alfonso Castellano</a> </h5>
+            <p>Consultor de estrategia y operaciones</p>
+            <p> Consultor estratégico en RRHH, en sector agroalimentario, de servicios e industrial. Organización y procesos, selección, gestión del clima de trabajo y de la satisfacción laboral, planes de formación y carrera. Formador / Coach de responsables de RRHH. Implantación y mantenimiento de gestión de sistemas normalizados ISO.&nbsp;</p>
+            <p><br>
+            </p>
+          </div>
+          <div class="six columns alpha">
+            <h5><a href="http://www.linkedin.com/in/cejudojavier">Javier Cejudo</a></h5>
+            <p>Cofundador de <a href="http://xilacurve.com/">Xilacurve S.L.</a></p>
+            <p>Ingeniero industrial. Cofundador de Xilacurve, empresa de bioconstrucción y carpintería creativa creadores del <strong><b>Xiglú</b></strong>, una casa ecológica basada en la construcción tradicional de los inuit. Explorando nuevos conceptos en arquitectura prefabricada sostenible.</p>
+          </div>
+          <div class="six columns omega">
+            <h5><a href="http://arasthel.com/">Jorge Martín Espinosa</a><br>
+            </h5>
+            <p>Programador independiente<br>
+            </p>
+            <p>Estudiante de la UAL en Grado en Ingeniería Informática y desarrollador de aplicaciones Java y Android, miembro de la comunidad Android de Almería. A veces colaborador con grupos de desarrollo en Android, como CyanogenMod o MIUI. Intentando salvar <a
+                href="https://play.google.com/store/apps/details?id=org.arasthel.almeribus">AlmeriBus</a>.</p>
+          </div>
+          <div class="six columns alpha">
+            <h5><a href="http://es.linkedin.com/pub/isabel-perez/27/45b/452/">Isabel Pérez Segura</a> </h5>
+            <p>CEO / Fundadora de <a href="http://www.realtracksystems.com">RealTrack Systems SL</a> </p>
+            <p>Al frente de Realtrack Systems como CEO y fundadora, empresa de base tecnológica centrada en el desarrollo de tecnologías de monitorización de la actividad física cuya misión es proveer soluciones tecnológicas al mercado deportivo y de la salud, proporcionando al deportista, equipo técnico o médico, la información exacta y relevante de forma continuada sobre la ejecución de la actividad física, con productos como <strong><b>wimu</b></strong>, <strong><b>qüiko</b></strong> o <strong>seego</strong>. </p>
+          </div>
+          <div class="six columns omega">
+            <h5><a href="es.linkedin.com/pub/jorge-viedma/43/291/766">Jorge Viedma</a></h5>
+            <p>Fundador de <a href="http://spal.es">SPAL</a></p>
+            <p>Fundador de SPAL (portal para la compra de actividades en el
+            medio natural) y co-fundador de Münk (marca propia de textil
+            para su venta online) entre otros proyectos (SPAL coworking,
+            spaldeals, spal viviendas...). 
+            Arquitecto por estudios, emprendedor por naturaleza.
+            Que la inspiración te pille trabajando es mi lema.
+            Enamorado de los CRM para la gestión del tiempo y de Google
+            Analytics.
+            Amplia experiencia en la conversión de ideas en realidades,
+            asesor de empresas tecnológicas en ámbitos como burocracia,
+            ayudas, posicionamiento en el mundo real.
+            ¡Gran creyente en los empresarios, no creo en el
+            emprendimiento! Solución en la charla.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="doc-section clearfix" id="programa">
+          <h3>Programa</h3>
+          <p>Este es el programa provisional:<br>
+          </p>
+          <div class="cabeceraprograma">
+            <p>1ª parte: invitado especial</p>
+          </div>
+          <div class="charla">
+            <p>«Acciones de Google España para la promoción de nuevas empresas tecnológicas»<br>
+              Andrés L. Martínez</p>
+          </div>
+          <div class="cabeceraprograma">
+            <p>2ª parte: charlas relámpago</p>
+          </div>
+          <div class="charla">
+            <p>«BANUAL, Red de Business Angels promovida por la Universidad de Almería»<br>
+              Carlos Cano</p>
+          </div>
+          <div class="charla">
+            <p>
+              <meta http-equiv="content-type" content="text/html; charset=utf-8">
+              «Lecciones aprendidas en el diseño de planes de negocio de empresas tecnológicas»<br>
+              Alfonso Castellano<br>
+            </p>
+          </div>
+          <div class="charla">
+            <p>«¿Arquitectura de código abierto? Del open source software al open source hardware»<br>
+              Javier Cejudo<br>
+            </p>
+          </div>
+          <div class="charla">
+            <p>«AlmeriBus, impedancias en un proyecto de emprendimiento social»<br>
+              Jorge Martín Espinosa<br>
+            </p>
+          </div>
+          <div class="charla">
+            <p>«Diseño, producción y comercialización de productos hardware+software»<br>
+              Isabel Pérez Segura<br>
+            </p>
+          </div>
+          <div class="charla">
+            <p>«Emprendedor, empresario, networker o como vivir de uno mismo»<br>
+              Jorge Viedma<br>
+            </p>
+          </div>
+          <div class="cabeceraprograma">
+            <p>3ª parte: sesión abierta</p>
+          </div>
+          <div class="charla">
+            <p>Preguntas al panel de expositores y sesión de debate abierta al público.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="doc-section clearfix" id="localizacion">
+          <h3>Localización</h3>
+          <ul class="square">
+            <li>Lugar: <strong>salón de actos de la <a href="https://maps.google.es/maps?ie=UTF-8&amp;q=Biblioteca+P%C3%BAblica+Francisco+Villaespesa&amp;fb=1&amp;gl=es&amp;hq=biblioteca+villaespesa&amp;cid=911822466216562244&amp;ei=H9KVUsetHKSV0QWf9YGICg&amp;sqi=2&amp;ved=0CIUBEPwSMAk">Biblioteca Pública Francisco Villaespesa</a></strong></li>
+            <li>Fecha: <strong>5 de diciembre de 2013</strong></li>
+            <li>Horario: <strong>De 17:00 a 20:00</strong></li>
+          </ul>
+        </div>
+        <hr>
+        <div class="doc-section clearfix" id="inscripcion">
+          <h3>Inscripción</h3>
+          <p><strong>Asistencia gratuita hasta llenar aforo.</strong><br>
+            Apúntate en nuestro <a href="https://plus.google.com/events/ch7krl2lplotmc44gd1euvpub2c">evento de Google+</a>.</p>
+        </div>
+        <hr>
+        <div class="doc-section clearfix" id="realimentacion">
+          <h3>Realimentación</h3>
+          <p>Servíos de añadir a este <strong><a href="http://canvanizer.com/canvas/00uKMBGLn4E">panel de realimentación</a></strong> todos los comentarios y sugerencias que os parezcan oportunos.<br>
+          Nota: <a href="http://olea.org/diario/archive/2010/ene-11-1.html">nos reservamos el derecho</a> a retirar cualquier entrada que nos parezca inapropiada: <a href="https://twitter.com/search?q=%23trollk&f=realtime">#trollK</a>
+          </p>
+        </div>
+      </div>
+      </div>
+      <hr>
+      <p><small>Una iniciativa de <a href="http://olea.org/diario/">Ismael Olea</a> y <a
+            href="http://geekia.es/">Geekia<br>
+          </a></small></p>
+    </div>
+    <!-- content -->
+    <!-- container -->
+    <!-- JS
+		================================================== -->
+    <script src="./Skeleton%20%20Beautiful%20Boilerplate%20for%20Responsive,%20Mobile-Friendly%20Development_files/jquery.min.js"></script>
+    <script>
+		$('.hidden-code').click(function(e) {
+			e.preventDefault();
+			$(this).children('.gist').slideToggle();
+		})
+
+		var originalText;
+		$('.example-grid').children().hover(
+			function() {
+				originalText = $(this).text();
+				$(this).html($(this).width()+'px');
+			},
+			function() {
+				$(this).html(originalText);
+			})
+		</script>
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-33397759-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+
+		</script>
+    <script type="text/javascript">
+		var _gauges = _gauges || [];
+		(function() {
+			var t   = document.createElement('script');
+			t.type  = 'text/javascript';
+			t.async = true;
+			t.id    = 'gauges-tracker';
+			t.setAttribute('data-site-id', '4d806d7410cafd7fa4000011');
+			t.src = '//secure.gaug.es/track.js';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(t, s);
+		})();
+		</script>
+  </body>
+</html>

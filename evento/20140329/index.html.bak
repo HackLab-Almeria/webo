@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<!-- hecho con Skeleton -->
+<html lang="es">
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <!-- Basic Page Needs
+	================================================== -->
+    <title>Día Arduino + Taller impresoras 3D opensource</title>
+    <meta name="description" content="Día Arduino + Taller impresoras 3D opensource, CloneWars, RepRap, hardware abierto, free software, free hardware, open hardware, maker, DIY">
+    <meta name="author" content="Ismael Olea">
+    <!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>		<![endif]-->
+    <!-- Mobile Specific Metas
+	================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- CSS
+	================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/docs.css">
+    <!-- Favicon
+	================================================== -->
+    <link rel="shortcut icon" href="css/favicon.ico">
+    <style>#adzerk_by {display:none}
+
+	/* vert */
+	.carbonad {background-color:#FBFBFB;border:2px solid #E8E8E8;height:215px;line-height:1.2;width:150px;}
+	.carbonad-img {float:left;height:100px;margin-left:11px;margin-top:11px;width:130px;}
+	.carbonad-text {color:#545454;float:left;font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:normal;height:50px;margin-left:15px;margin-top:9px;width:119px;}
+	.carbonad-text a {color: #545454;text-decoration: none;font-weight: bold;}
+	.carbonad-tag {color:#999999;float:left;font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:normal;margin-left:17px;margin-top:15px;padding-top:5px;}
+	.carbonad-tag a {color: #999999;text-align: center;text-decoration: none;font-weight: bold;}
+</style><link type="text/css" rel="stylesheet" href="chrome-extension://cpngackimfmofbokmjmljamhdncknpmg/style.css">
+    <script type="text/javascript" charset="utf-8" src="chrome-extension://cpngackimfmofbokmjmljamhdncknpmg/page_context.js"></script>
+  </head>
+  <body screen_capture_injected="true" data-twttr-rendered="true">
+    <div class="container">
+      <div class="three columns sidebar">
+        <nav>
+          <ul>
+            <li style="margin: 0px 0px 10px; padding: 0px; border: 0px none; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: 18px; vertical-align: baseline; color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: block;"><a
+                href="#descripcion" style="margin: 0px; padding: 0px; border: 0px none; font-family: inherit; font-size: 14px; font-style: inherit; font-variant: inherit; font-weight: bold; line-height: inherit; vertical-align: baseline; color: rgb(85, 85, 85); text-decoration: none; outline: invert none 0px;">Descripción</a></li>
+            <li style="margin: 0px 0px 10px; padding: 0px; border: 0px none; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: 18px; vertical-align: baseline; color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: block;"><a
+                href="#invitado" style="margin: 0px; padding: 0px; border: 0px none; font-family: inherit; font-size: 14px; font-style: inherit; font-variant: inherit; font-weight: bold; line-height: inherit; vertical-align: baseline; color: rgb(85, 85, 85); text-decoration: none; outline: invert none 0px;">Invitado especial</a></li>
+            <li style="margin: 0px 0px 10px; padding: 0px; border: 0px none; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: 18px; vertical-align: baseline; color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: block;"><a
+                href="#programa-29" style="margin: 0px; padding: 0px; border: 0px none; font-family: inherit; font-size: 14px; font-style: inherit; font-variant: inherit; font-weight: bold; line-height: inherit; vertical-align: baseline; color: rgb(85, 85, 85); text-decoration: none; outline: invert none 0px;">Día Arduino </a></li>
+            <li style="margin: 0px 0px 10px; padding: 0px; border: 0px none; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: 18px; vertical-align: baseline; color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: block;"><a
+                href="#programa-30" style="margin: 0px; padding: 0px; border: 0px none; font-family: inherit; font-size: 14px; font-style: inherit; font-variant: inherit; font-weight: bold; line-height: inherit; vertical-align: baseline; color: rgb(85, 85, 85); text-decoration: none; outline: invert none 0px;">Taller impresoras </a></li>
+            <li style="margin: 0px 0px 10px; padding: 0px; border: 0px none; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: 18px; vertical-align: baseline; color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: block;"><a
+                href="#localizacion" style="margin: 0px; padding: 0px; border: 0px none; font-family: inherit; font-size: 14px; font-style: inherit; font-variant: inherit; font-weight: bold; line-height: inherit; vertical-align: baseline; color: rgb(85, 85, 85); text-decoration: none; outline: invert none 0px;">Localización</a></li>
+            <li style="margin: 0px 0px 10px; padding: 0px; border: 0px none; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: 18px; vertical-align: baseline; color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: block;"><a
+                href="#inscripcion" style="margin: 0px; padding: 0px; border: 0px none; font-family: inherit; font-size: 14px; font-style: inherit; font-variant: inherit; font-weight: bold; line-height: inherit; vertical-align: baseline; color: rgb(85, 85, 85); text-decoration: none; outline: invert none 0px;">Inscripción</a></li>
+            <li style="margin: 0px 0px 10px; padding: 0px; border: 0px none; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: 18px; vertical-align: baseline; color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: block;"><a
+                href="#realimentacion" style="margin: 0px; padding: 0px; border: 0px none; font-family: inherit; font-size: 14px; font-style: inherit; font-variant: inherit; font-weight: bold; line-height: inherit; vertical-align: baseline; color: rgb(85, 85, 85); text-decoration: none; outline: invert none 0px;">Realimentación</a></li>
+          </ul>
+          <div> <a href="#logotipos"> </a>
+            <div style="margin: 0px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; line-height: 21px; vertical-align: baseline; color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);"> <a
+                href="http://www.arduinoday.tv/" style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; color: rgb(51, 51, 51); text-decoration: underline; outline: 0px;"><img
+                  id="BG_1394906292661_2084" alt="Arduino Day 2014" src="img/ARDUINODAY_badge_500x500.jpg"
+                  style="margin: 0px; padding: 0px; border: 0px solid; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; max-width: 100%; height: 160px; width: 160px;"
+                  align="right"></a> </div>
+            <br style="color: rgb(68, 68, 68); font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">
+            <a href="http://www.reprap.org/wiki/Proyecto_Clone_Wars" style="margin: 0px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; line-height: 21px; vertical-align: baseline; color: rgb(51, 51, 51); text-decoration: underline; outline: 0px; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);"><img
+                alt="RepRap CloneWars logo" src="http://www.reprap.org/mediawiki/images/1/1f/Clone-Wars-logo.png"
+                style="margin: 0px; padding: 0px; border: 0px solid; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; max-width: 100%; height: 117px; width: 200px;"
+                align="right"></a><span style="color: rgb(68, 68, 68); font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;"></span> </div>
+        </nav>
+        &nbsp; </div>
+      <div class="twelve columns offset-by-one content">
+        <header>
+          <h1 data-skip="true" style="margin: 0px 0px 14px; padding: 0px; border: 0px none; font-family: Montserrat, sans-serif; font-size: 52px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 47px; vertical-align: baseline; color: rgb(24, 24, 24); orphans: auto; text-align: start; text-indent: 0px; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; letter-spacing: -2px; text-transform: uppercase; background-color: rgb(255, 255, 255);">DÍA ARDUINO + TALLER IMPRESORAS 3D OPENSOURCE</h1>
+          <h2 style="margin: 30px 0px 10px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 35px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 40px; vertical-align: baseline; color: rgb(24, 24, 24); letter-spacing: -1px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">29-30 de marzo de 2014 / Almería</h2>
+        </header>
+        <hr class="large">
+        <div class="doc-section" id="descripcion">
+          <h3 style="margin: 0px 0px 20px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 28px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 34px; vertical-align: baseline; color: rgb(24, 24, 24); text-transform: uppercase; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">DESCRIPCIÓN</h3>
+          <p style="margin: 0px 0px 20px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; line-height: 21px; vertical-align: baseline; color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">Somos gente con suerte: vivimos en unos<span
+              class="">&nbsp;</span><a href="http://olea.org/conferencias/doc-conf-201403-UAL/"
+              style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; color: rgb(51, 51, 51); text-decoration: underline; outline: 0px;">tiempos excepcionales</a>, felizmente coinciden fechas (<a
+              href="http://day.arduino.cc/" style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; color: rgb(51, 51, 51); text-decoration: underline; outline: 0px;">Arduino Day</a>)<a
+              href="http://www.arduinoday.tv/" style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; color: rgb(51, 51, 51); text-decoration: underline; outline: 0px;">&nbsp;</a>&nbsp;con las actividades en el<span
+              class="">&nbsp;</span><a href="http://twitter.com/hacklabal"
+              style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; color: rgb(51, 51, 51); text-decoration: underline; outline: 0px;">@HackLab Almería</a><span
+              class="">&nbsp;</span>y con la disponibilidad de un amigo,<a
+              href="http://www.scoop.it/t/barfablab" style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; color: rgb(51, 51, 51); text-decoration: underline; outline: 0px;">Juan Manuel Amuedo</a>, irredento activista en la<span
+              class="">&nbsp;</span><a href="http://playground.arduino.cc//Es/Es"
+              style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; color: rgb(51, 51, 51); text-decoration: underline; outline: 0px;">comunidad hispana de Arduino</a><span
+              class="">&nbsp;</span>y<a href="http://www.reprap.org/wiki/Proyecto_Clone_Wars"
+              style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; color: rgb(51, 51, 51); text-decoration: underline; outline: 0px;">RepRap/CloneWars</a>. Y tenemos la suerte de que sea tan poco reflexivo como desprendido para ofrecerse y venir a Almería a compartir su saber y entusiasmo.</p>
+          <p style="margin: 0px 0px 20px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; line-height: 21px; vertical-align: baseline; color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">Por eso tengo la suerte de convocaros al seminario «<span
+              style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: bold; line-height: inherit; vertical-align: baseline;">Día Arduino + Taller impresoras 3D opensource</span>» que organiza el<span
+              class="">&nbsp;</span><a href="http://hacklabalmeria.net/foro/#nabble-f5001241"
+              style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; color: rgb(51, 51, 51); text-decoration: underline; outline: 0px;">Taller de Hardware Abierto del HackLab Almería</a><span
+              class="">&nbsp;</span>con el apoyo y patrocinio de<span class="">&nbsp;</span><a
+              href="http://www.realtracksystems.com/" style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; color: rgb(51, 51, 51); text-decoration: underline; outline: 0px;">Real Track Systems</a><span
+              class="">&nbsp;</span>y&nbsp; la inestimable participación estelar de Juan Manuel.</p>
+          <h4 style="margin: 0px 0px 4px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; vertical-align: baseline; color: rgb(24, 24, 24); letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">Convocatoria</h4>
+          <p style="margin: 0px 0px 20px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; line-height: 21px; vertical-align: baseline; color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">Por la presente convocamos a todos los profesionales y aficionados a Arduino a que vengan el día 29 para presentar sus trabajos y sus experiencias en alguna de las dos sesiones reservadas para ellos. Por favor presentaos vosotros y vuestro proyecto en el<span
+              class="">&nbsp;</span><a href="http://hacklabalmeria.net/foro/#nabble-f5001631"
+              style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; color: rgb(51, 51, 51); text-decoration: underline; outline: 0px;">foro del encuentro</a>.</p>
+          <p style="margin: 0px 0px 20px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; line-height: 21px; vertical-align: baseline; color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">Si vas a traer tu propia impresora reprap para montarla avísanos en<span
+              class="">&nbsp;</span><a href="http://hacklabalmeria.net/foro/#nabble-f5001631"
+              style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; color: rgb(51, 51, 51); text-decoration: underline; outline: 0px;">el foro del encuentro</a><span
+              class="">&nbsp;</span>para coordinar la creación de equipos.<span
+              class="">&nbsp;</span></p>
+          <p style="margin: 0px 0px 20px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; line-height: 21px; vertical-align: baseline; color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">Si no tienes impresora y quieres conseguir una para montarla, escríbenos igualmente y te haremos llegar la información del modelo que ofrece<span
+              class="">&nbsp;</span><a href="http://www.yorokobu.es/lanave/"
+              style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; color: rgb(51, 51, 51); text-decoration: underline; outline: 0px;">LaNaveCC</a>.&nbsp; Tienes que darte mucha prisa para que pueda estar listo a tiempo del taller.</p>
+          <p style="margin: 0px 0px 20px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; line-height: 21px; vertical-align: baseline; color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">El taller va a ser absolutamente práctico por lo que vamos a intentar formar todos los equipos posibles. Los participantes que no puedan formar equipos de montaje atenderán como público.</p>
+          <p style="margin: 0px 0px 20px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; line-height: 21px; vertical-align: baseline; color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">Si tienes una impresora reprap ya montada y quieres exponerla<span
+              class="">&nbsp;</span><a href="http://hacklabalmeria.net/foro/#nabble-f5001631"
+              style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; color: rgb(51, 51, 51); text-decoration: underline; outline: 0px;">avísanos en el foro</a><span
+              class="">&nbsp;</span>por favor.</p>
+          <h4 style="margin: 0px 0px 4px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; vertical-align: baseline; color: rgb(24, 24, 24); letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">Actualización:</h4>
+          <span style="color: rgb(68, 68, 68); font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;">Hemos añadido la referencia a la necesidad de reservar plazas para el taller de montaje de impresoras. Más detalle en la sección<span
+              class="">&nbsp;</span></span><a href="#inscripcion" style="margin: 0px; padding: 0px; border: 0px none; font-family: inherit; font-size: 14px; font-style: inherit; font-variant: inherit; font-weight: bold; line-height: inherit; vertical-align: baseline; color: rgb(85, 85, 85); text-decoration: none; outline: invert none 0px; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">Inscripción</a><span
+            style="color: rgb(68, 68, 68); font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;">. (NOTA: plazas agotadas)</span>
+          <hr>
+          <div class="row clearfix" id="invitado">
+            <h3 style="margin: 0px 0px 20px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 28px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 34px; vertical-align: baseline; color: rgb(24, 24, 24); text-transform: uppercase; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">INVITADO ESPECIAL</h3>
+            <div class="four columns alpha" style="margin: 0px 10px 0px 0px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; line-height: 21px; vertical-align: baseline; float: left; display: inline; width: 220px; color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);"><img
+                id="BG_1395137222633_70279" src="img/Juan_Manuel_Amuedo.jpg"
+                alt="Juan Manuel Amuedo" style="margin: 0px; padding: 0px; border: 0px none; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; width: 220px;"></div>
+            <div class="eight columns omega" style="margin: 0px 0px 0px 10px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; line-height: 21px; vertical-align: baseline; float: left; display: inline; width: 460px; color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">
+              <h5 style="margin: 0px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 17px; font-style: inherit; font-variant: inherit; font-weight: 400; line-height: 24px; vertical-align: baseline; color: rgb(24, 24, 24);"><a
+                  href="https://twitter.com/colepower" style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; color: rgb(51, 51, 51); text-decoration: underline; outline: 0px;">Juan Manuel Amuedo González</a></h5>
+              <br>
+              <p style="margin: 0px 0px 20px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline;">Desarrollador de software,<span
+                  class="">&nbsp;</span><a href="http://forum.arduino.cc/index.php?PHPSESSID=271a1n8cirrukeqbl2rdks6ej6&amp;action=profile;u=2563"
+                  style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; color: rgb(51, 51, 51); text-decoration: underline; outline: 0px;">moderador</a><span
+                  class="">&nbsp;</span>del<a href="http://forum.arduino.cc/index.php/board,32.0.html"
+                  style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; color: rgb(51, 51, 51); text-decoration: underline; outline: 0px;"><span
+                    class="">&nbsp;</span>foro español Arduino</a>, miembro de<span
+                  class="">&nbsp;</span><a href="http://www.yorokobu.es/lanave/"
+                  style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; color: rgb(51, 51, 51); text-decoration: underline; outline: 0px;">LaNaveCC</a>, entusiasta tecnológico, defensor de la cultura libre, constructor de i<a
+                  href="http://www.reprap.org/" style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; color: rgb(51, 51, 51); text-decoration: underline; outline: 0px;">mpresoras reprap 3D open source</a><span
+                  class="">&nbsp;</span>personales, participante en el proyecto<a
+                  href="http://www.reprap.org/wiki/Proyecto_Clone_Wars"
+                  style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; color: rgb(51, 51, 51); text-decoration: underline; outline: 0px;">CloneWars</a><span
+                  class="">&nbsp;</span>y.... un «papi» con curiosidad.</p>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="doc-section clearfix" id="programa">
+          <div class="doc-section clearfix" id="programa-29" style="margin: 30px 0px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; line-height: 21px; vertical-align: baseline; zoom: 1; color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">
+            <h3 style="margin: 0px 0px 20px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 28px; font-style: inherit; font-variant: inherit; font-weight: 400; line-height: 34px; vertical-align: baseline; color: rgb(24, 24, 24); text-transform: uppercase;">DÍA 29: DÍA ARDUINO</h3>
+            <div class="cabeceraprograma" style="margin: 0px; padding: 20px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; background-color: rgb(51, 51, 51); color: rgb(204, 204, 204); background-position: initial initial; background-repeat: initial initial;">
+              <p style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline;">12:30 - 15:00: 1ª sesión:&nbsp; Juan Manuel Amuedo y «<span
+                  style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: bold; line-height: inherit; vertical-align: baseline;">Arduino, ese gran conocido</span>»</p>
+            </div>
+            <div class="charla" style="margin: 0px; padding: 20px; border-width: 0px 0px 1px; border-bottom-style: solid; border-bottom-color: rgb(255, 255, 255); font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; background-color: rgb(239, 239, 239); background-position: initial initial; background-repeat: initial initial;">
+              <p style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline;">15:00 - 16:30: Comida</p>
+            </div>
+            <div class="cabeceraprograma" style="margin: 0px; padding: 20px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; background-color: rgb(51, 51, 51); color: rgb(204, 204, 204); background-position: initial initial; background-repeat: initial initial;">
+              <p style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline;">16:30 - 18:30 Segunda sesión: proyección de «Arduino: El Documental» + charla/debate</p>
+            </div>
+            <div class="charla" style="margin: 0px; padding: 20px; border-width: 0px 0px 1px; border-bottom-style: solid; border-bottom-color: rgb(255, 255, 255); font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; background-color: rgb(239, 239, 239); background-position: initial initial; background-repeat: initial initial;">
+              <p style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline;">18:30 - 18:50: Descanso</p>
+            </div>
+            <div class="cabeceraprograma" style="margin: 0px; padding: 20px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; background-color: rgb(51, 51, 51); color: rgb(204, 204, 204); background-position: initial initial; background-repeat: initial initial;">
+              <p style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline;">18:50 - 21:00: Tercera sesión: mini talleres de montaje</p>
+            </div>
+            <div class="charla" style="margin: 0px; padding: 20px; border-width: 0px 0px 1px; border-bottom-style: solid; border-bottom-color: rgb(255, 255, 255); font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; background-color: rgb(239, 239, 239); background-position: initial initial; background-repeat: initial initial;">21:00: Tapeo almeriense<br>
+              <br>
+              Junto a quienes quieran incorporarse cenaremos de tapas en bares de la ciudad.</div>
+          </div>
+          <div class="doc-section clearfix" id="programa-30" style="margin: 30px 0px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; line-height: 21px; vertical-align: baseline; zoom: 1; color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">
+            <h3 style="margin: 0px 0px 20px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 28px; font-style: inherit; font-variant: inherit; font-weight: 400; line-height: 34px; vertical-align: baseline; color: rgb(24, 24, 24); text-transform: uppercase;">DÍA 30: TALLER IMPRESORAS 3D OPEN SOURCE</h3>
+            <div class="cabeceraprograma" style="margin: 0px; padding: 20px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; background-color: rgb(51, 51, 51); color: rgb(204, 204, 204); background-position: initial initial; background-repeat: initial initial;">
+              <p style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline;">10:00 - 14:00: Taller de montaje de impresora 3D<span
+                  class="">&nbsp;</span><a href="http://www.reprap.org/wiki/Proyecto_Clone_Wars"
+                  style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; color: rgb(204, 204, 204); text-decoration: underline; outline: 0px;">RepRap/CloneWars</a></p>
+              <p style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline;">Juan Manuel nos ayudará con el montaje de impresoras 3D basadas en la familia RepRap/Clonewars.</p>
+              <p style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline;">Formaremos equipos de montaje de 5 personas máximo. Contaremos al menos con una impresora para montar. El resto de asistentes podrá observar como público. Podrán organizarse tanto equipos como kits de montaje aporten los asistentes.</p>
+            </div>
+            <div class="charla" style="margin: 0px; padding: 20px; border-width: 0px 0px 1px; border-bottom-style: solid; border-bottom-color: rgb(255, 255, 255); font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; background-color: rgb(239, 239, 239); background-position: initial initial; background-repeat: initial initial;">
+              <p style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline;">14:00 - 15:30: Comida</p>
+            </div>
+            <div class="cabeceraprograma" style="margin: 0px; padding: 20px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; background-color: rgb(51, 51, 51); color: rgb(204, 204, 204); background-position: initial initial; background-repeat: initial initial;">
+              <p style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline;">15:30 - 17:30: Continuación del taller de montaje</p>
+            </div>
+            <div class="charla" style="margin: 0px; padding: 20px; border-width: 0px 0px 1px; border-bottom-style: solid; border-bottom-color: rgb(255, 255, 255); font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; background-color: rgb(239, 239, 239); background-position: initial initial; background-repeat: initial initial;">
+              <p style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline;">17:30 Despedida y cierre</p>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="doc-section clearfix" id="localizacion">
+          <h3 style="margin: 0px 0px 20px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 28px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 34px; vertical-align: baseline; color: rgb(24, 24, 24); text-transform: uppercase; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">LOCALIZACIÓN</h3>
+          <ul class="square" style="margin: 0px 0px 20px 30px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; line-height: 21px; vertical-align: baseline; list-style: square outside; color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">
+            <li style="margin: 0px 0px 12px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: 18px; vertical-align: baseline;">Lugar:<span
+                class="">&nbsp;</span><strong style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: bold; line-height: inherit; vertical-align: baseline; color: rgb(51, 51, 51);"><a
+                  href="http://bit.ly/RealTrackSystems" style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; color: rgb(51, 51, 51); text-decoration: underline; outline: 0px;">Real Track Systems</a></strong>, Almería capital.<strong
+                style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: bold; line-height: inherit; vertical-align: baseline; color: rgb(51, 51, 51);"><a
+                  href="http://bit.ly/RealTrackSystems" style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; color: rgb(51, 51, 51); text-decoration: underline; outline: 0px;"> </a></strong></li>
+            <li style="margin: 0px 0px 12px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: 18px; vertical-align: baseline;">Fecha:<span
+                class="">&nbsp;</span><strong style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: bold; line-height: inherit; vertical-align: baseline; color: rgb(51, 51, 51);">29 y 30 de marzo de 2014</strong></li>
+            <li style="margin: 0px 0px 12px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: 18px; vertical-align: baseline;">Horario:<span
+                class=""> </span>
+              <ul>
+                <li style="margin: 0px 0px 12px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: 18px; vertical-align: baseline;"><span
+                    class=""></span><strong style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: bold; line-height: inherit; vertical-align: baseline; color: rgb(51, 51, 51);">día 29, Día Arduino: 12:30 a 21:00 </strong></li>
+                <li style="margin: 0px 0px 12px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: 18px; vertical-align: baseline;"><strong
+                    style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: bold; line-height: inherit; vertical-align: baseline; color: rgb(51, 51, 51);">día 30, taller: 10:00 a 17:30</strong></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <hr>
+        <div class="doc-section clearfix" id="inscripcion">
+          <h3 style="margin: 0px 0px 20px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 28px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 34px; vertical-align: baseline; color: rgb(24, 24, 24); text-transform: uppercase; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">INSCRIPCIÓN</h3>
+          <p style="margin: 0px 0px 20px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; line-height: 21px; vertical-align: baseline; color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">La asistencia al<span
+              class="">&nbsp;</span><span style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: bold; line-height: inherit; vertical-align: baseline;">Día Arduino</span><span
+              class="">&nbsp;</span>es libre, pero puedes registrarte apuntándote en el<span
+              class="">&nbsp;</span><a href="https://plus.google.com/b/118332755793990205162/events/ct40t42t3vhitlv03hc4j5d2qrk"
+              style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; color: rgb(51, 51, 51); text-decoration: underline; outline: 0px;">evento Google+</a>.</p>
+          <p style="margin: 0px 0px 20px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; line-height: 21px; vertical-align: baseline; color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">Si quieres presentar un proyecto arduino avísanos en el<span
+              class="">&nbsp;</span><a href="http://hacklabalmeria.net/foro/#nabble-f5001631"
+              style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; color: rgb(51, 51, 51); text-decoration: underline; outline: 0px;">foro del encuentro</a>.</p>
+          <p style="margin: 0px 0px 20px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; line-height: 21px; vertical-align: baseline; color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">(ACTUALIZACIÓN: las entradas al taller están agotadas)<br>
+            Por la naturaleza del<span class="">&nbsp;</span><span style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: bold; line-height: inherit; vertical-align: baseline;">taller de montaje de impresoras</span><span
+              class="">&nbsp;</span>nos vemos en la necesidad de restringir la participación a 25 asistentes. La entrada es gratuita pero es preciso registrarse:<a
+              href="https://www.eventbrite.es/e/entradas-taller-de-impresoras-3d-opensource-10946572493?ref=ebtnebtckt"
+              target="_blank" style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; color: rgb(51, 51, 51); text-decoration: underline; outline: 0px;"><img
+                src="https://www.eventbrite.es/custombutton?eid=10946572493"
+                alt="Eventbrite" style="margin: 0px; padding: 0px; border: 0px solid; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; max-width: 100%; height: 44px; width: 178px;"
+                align="right"></a></p>
+        </div>
+        <hr>
+        <div class="doc-section clearfix" id="realimentacion">
+          <h3 style="margin: 0px 0px 20px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 28px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 34px; vertical-align: baseline; color: rgb(24, 24, 24); text-transform: uppercase; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">REALIMENTACIÓN</h3>
+          <p style="margin: 0px 0px 20px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; line-height: 21px; vertical-align: baseline; color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">Servíos de añadir a este<span
+              class="">&nbsp;</span><strong style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: bold; line-height: inherit; vertical-align: baseline; color: rgb(51, 51, 51);"><a
+                href="http://canvanizer.com/canvas/BZPIrReiY2o" style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; color: rgb(51, 51, 51); text-decoration: underline; outline: 0px;">panel de realimentación</a></strong><span
+              class="">&nbsp;</span>todos los comentarios y sugerencias que os parezcan oportunos (<a
+              href="http://olea.org/diario/archive/2010/ene-11-1.html" style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; color: rgb(51, 51, 51); text-decoration: underline; outline: 0px;">nos reservamos el derecho</a><span
+              class="">&nbsp;</span>a retirar cualquier entrada que nos parezca inapropiada:<span
+              class="">&nbsp;</span><a href="https://twitter.com/search?q=%23trollk&amp;f=realtime"
+              style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; color: rgb(51, 51, 51); text-decoration: underline; outline: 0px;">#trollK</a>).</p>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div style="text-align: right"><a href="http://hacklabalmeria.net/"><img
+          style="border: 0px solid ; width: 300px; height: 96px;" alt="logo del HackLab Almería"
+          src="file:///home/olea/public_html/web-hacklabalmeria.net/evento/20140329/img/HackLab-Almeria.png"></a> </div>
+    <p> </p>
+    <!-- content -->
+    <!-- container -->
+    <!-- JS
+		================================================== -->
+    <script src="./Skeleton%20%20Beautiful%20Boilerplate%20for%20Responsive,%20Mobile-Friendly%20Development_files/jquery.min.js"></script>
+    <script>
+		$('.hidden-code').click(function(e) {
+			e.preventDefault();
+			$(this).children('.gist').slideToggle();
+		})
+
+		var originalText;
+		$('.example-grid').children().hover(
+			function() {
+				originalText = $(this).text();
+				$(this).html($(this).width()+'px');
+			},
+			function() {
+				$(this).html(originalText);
+			})
+		</script>
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-33397759-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+
+		</script>
+    <script type="text/javascript">
+		var _gauges = _gauges || [];
+		(function() {
+			var t   = document.createElement('script');
+			t.type  = 'text/javascript';
+			t.async = true;
+			t.id    = 'gauges-tracker';
+			t.setAttribute('data-site-id', '4d806d7410cafd7fa4000011');
+			t.src = '//secure.gaug.es/track.js';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(t, s);
+		})();
+		</script>
+  </body>
+</html>

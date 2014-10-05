@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<!-- hecho con Skeleton -->
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+<!-- Basic Page Needs
+	================================================== -->
+  <title>Día Arduino + Taller impresoras 3D opensource</title>
+  <meta name="description"
+ content="Día Arduino + Taller impresoras 3D opensource, CloneWars, RepRap, hardware abierto, free software, free hardware, open hardware, maker, DIY">
+  <meta name="author" content="Ismael Olea">
+<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>		<![endif]--><!-- Mobile Specific Metas
+	================================================== -->
+  <meta name="viewport"
+ content="width=device-width, initial-scale=1, maximum-scale=1">
+<!-- CSS
+	================================================== -->
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/docs.css">
+<!-- Favicon
+	================================================== -->
+  <link rel="shortcut icon" href="css/favicon.ico">
+  <style>#adzerk_by {display:none}
+
+	/* vert */
+	.carbonad {background-color:#FBFBFB;border:2px solid #E8E8E8;height:215px;line-height:1.2;width:150px;}
+	.carbonad-img {float:left;height:100px;margin-left:11px;margin-top:11px;width:130px;}
+	.carbonad-text {color:#545454;float:left;font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:normal;height:50px;margin-left:15px;margin-top:9px;width:119px;}
+	.carbonad-text a {color: #545454;text-decoration: none;font-weight: bold;}
+	.carbonad-tag {color:#999999;float:left;font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:normal;margin-left:17px;margin-top:15px;padding-top:5px;}
+	.carbonad-tag a {color: #999999;text-align: center;text-decoration: none;font-weight: bold;}
+  </style>
+  <link type="text/css" rel="stylesheet"
+ href="chrome-extension://cpngackimfmofbokmjmljamhdncknpmg/style.css">
+  <script type="text/javascript" charset="utf-8"
+ src="chrome-extension://cpngackimfmofbokmjmljamhdncknpmg/page_context.js"></script>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+</head>
+<body screen_capture_injected="true" data-twttr-rendered="true">
+<div class="container">
+<div class="three columns sidebar"> <nav> </nav>
+<ul>
+  <li>
+    <ul
+ style="border: 0px none ; margin: 0px 0px 20px; padding: 0px; font-family: Montserrat,sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; line-height: 21px; vertical-align: baseline; list-style-type: none; list-style-image: none; list-style-position: outside; float: left; color: rgb(68, 68, 68); letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255);">
+      <li
+ style="border: 0px none ; margin: 0px 0px 10px; padding: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: 18px; vertical-align: baseline; display: block;"><a
+ href="http://olea.org/evento/20131205/#descripcion"
+ style="border: 0px none ; margin: 0px; padding: 0px; font-family: inherit; font-size: 14px; font-style: inherit; font-variant: inherit; font-weight: bold; line-height: inherit; vertical-align: baseline; color: rgb(85, 85, 85); text-decoration: none; outline-color: invert; outline-style: none; outline-width: 0px;">Descripción</a></li>
+      <li
+ style="border: 0px none ; margin: 0px 0px 10px; padding: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: 18px; vertical-align: baseline; display: block;"><a
+ href="#invitado"
+ style="border: 0px none ; margin: 0px; padding: 0px; font-family: inherit; font-size: 14px; font-style: inherit; font-variant: inherit; font-weight: bold; line-height: inherit; vertical-align: baseline; color: rgb(85, 85, 85); text-decoration: none; outline-color: invert; outline-style: none; outline-width: 0px;">Invitado
+especial</a></li>
+      <li
+ style="border: 0px none ; margin: 0px 0px 10px; padding: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: 18px; vertical-align: baseline; display: block;"><a
+ href="#programa-29"
+ style="border: 0px none ; margin: 0px; padding: 0px; font-family: inherit; font-size: 14px; font-style: inherit; font-variant: inherit; font-weight: bold; line-height: inherit; vertical-align: baseline; color: rgb(85, 85, 85); text-decoration: none; outline-color: invert; outline-style: none; outline-width: 0px;">Día
+Arduino<br>
+        </a></li>
+      <li
+ style="border: 0px none ; margin: 0px 0px 10px; padding: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: 18px; vertical-align: baseline; display: block;"><a
+ href="#programa-30"
+ style="border: 0px none ; margin: 0px; padding: 0px; font-family: inherit; font-size: 14px; font-style: inherit; font-variant: inherit; font-weight: bold; line-height: inherit; vertical-align: baseline; color: rgb(85, 85, 85); text-decoration: none; outline-color: invert; outline-style: none; outline-width: 0px;">Taller
+impresoras<br>
+        </a></li>
+      <li
+ style="border: 0px none ; margin: 0px 0px 10px; padding: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: 18px; vertical-align: baseline; display: block;"><a
+ href="#localizacion"
+ style="border: 0px none ; margin: 0px; padding: 0px; font-family: inherit; font-size: 14px; font-style: inherit; font-variant: inherit; font-weight: bold; line-height: inherit; vertical-align: baseline; color: rgb(85, 85, 85); text-decoration: none; outline-color: invert; outline-style: none; outline-width: 0px;">Localización</a></li>
+      <li
+ style="border: 0px none ; margin: 0px 0px 10px; padding: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: 18px; vertical-align: baseline; display: block;"><a
+ href="#inscripcion"
+ style="border: 0px none ; margin: 0px; padding: 0px; font-family: inherit; font-size: 14px; font-style: inherit; font-variant: inherit; font-weight: bold; line-height: inherit; vertical-align: baseline; color: rgb(85, 85, 85); text-decoration: none; outline-color: invert; outline-style: none; outline-width: 0px;">Inscripción</a></li>
+      <li
+ style="border: 0px none ; margin: 0px 0px 10px; padding: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: 18px; vertical-align: baseline; display: block;"><a
+ href="#realimentacion"
+ style="border: 0px none ; margin: 0px; padding: 0px; font-family: inherit; font-size: 14px; font-style: inherit; font-variant: inherit; font-weight: bold; line-height: inherit; vertical-align: baseline; color: rgb(85, 85, 85); text-decoration: none; outline-color: invert; outline-style: none; outline-width: 0px;">Realimentación</a><br>
+      </li>
+    </ul>
+  </li>
+</ul>
+<div>
+<h1><a href="http://www.arduinoday.tv/"> <img
+ style="border: 0px solid ; width: 200px; height: 400px;"
+ alt="Arduino Day 2014"
+ src="http://day.arduino.cc/wp-content/themes/arduinoWide/arduinoday/banners/ARDUINODAY_200x400.png"
+ align="right"></a></h1>
+<br>
+</div>
+<br>
+<a href="http://www.reprap.org/wiki/Proyecto_Clone_Wars"><img
+ style="border: 0px solid ; width: 200px; height: 117px;"
+ alt="RepRap CloneWars logo"
+ src="http://www.reprap.org/mediawiki/images/1/1f/Clone-Wars-logo.png"
+ align="right"></a>&nbsp; </div>
+<div class="twelve columns offset-by-one content"> <header> </header>
+<h1></h1>
+<h1 data-skip="true"
+ style="border: 0px none ; margin: 0px 0px 14px; padding: 0px; font-family: Montserrat,sans-serif; font-size: 52px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 47px; vertical-align: baseline; color: rgb(24, 24, 24); letter-spacing: -2px; text-transform: uppercase; text-align: start; text-indent: 0px; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255);">Día
+Arduino + Taller impresoras 3D opensource</h1>
+<h2>29-30 de marzo de 2014 / Almería</h2>
+<hr class="large">
+<div class="doc-section" id="descripcion">
+<h3>Descripción</h3>
+<p>Somos gente con suerte: vivimos en unos <a
+ href="http://olea.org/conferencias/doc-conf-201403-UAL/">tiempos
+excepcionales</a>, felizmente coinciden fechas (<a
+ href="http://day.arduino.cc/">Arduino
+Day</a>)<a href="http://www.arduinoday.tv/">&nbsp;</a>&nbsp;con las
+actividades en el <a href="http://twitter.com/hacklabal">@HackLab
+Almería</a> y con la
+disponibilidad de un amigo, <a href="http://www.scoop.it/t/barfablab">Juan
+Manuel Amuedo</a>, irredento activista
+en la <a href="http://playground.arduino.cc//Es/Es">comunidad hispana
+de
+Arduino</a> y <a href="http://www.reprap.org/wiki/Proyecto_Clone_Wars">RepRap/CloneWars</a>.
+Y tenemos la suerte de que sea tan poco reflexivo como desprendido para
+ofrecerse y venir a Almería a compartir su saber y entusiasmo.</p>
+<p>Por eso tengo la suerte de convocaros al seminario «<span
+ style="font-weight: bold;">Día Arduino +
+Taller impresoras 3D opensource</span>» que
+organiza el <a href="http://hacklabalmeria.net/foro/#nabble-f5001241">Taller
+de
+Hardware
+Abierto del HackLab Almería</a> con el apoyo y patrocinio de <a
+ href="http://www.realtracksystems.com/">Real Track
+Systems</a> y&nbsp; la inestimable participación estelar de Juan Manuel.</p>
+<h4>Convocatoria</h4>
+<p>Por la presente convocamos a todos los profesionales y aficionados a
+Arduino a que vengan el día 29 para presentar sus trabajos y sus
+experencias en alguna de las dos sesiones reservadas para ellos. Por
+favor presentaos vosotros y vuestro proyecto en el <a
+ href="http://hacklabalmeria.net/foro/#nabble-f5001631">foro del
+encuentro</a>.<br>
+</p>
+<p>Si vas a traer tu propia impresora reprap para montarla avísanos en <a
+ href="http://hacklabalmeria.net/foro/#nabble-f5001631">el foro del
+encuentro</a> para coordinar la creación de equipos. <br>
+</p>
+<p>Si no tienes impresora y quieres conseguir una para montarla,
+escríbenos igualmente y te haremos llegar la información del modelo que
+ofrece <a href="http://www.yorokobu.es/lanave/">LaNaveCC</a>.&nbsp;
+Tendrías que darte prisa para que pueda estar listo a tiempo del taller.<br>
+</p>
+<p>El taller va a ser absolutamente práctico por lo que vamos a
+intentar formar todos los equipos posibles.</p>
+<p>Si tienes una impresora reprap ya montada y quieres exponerla <a
+ href="http://hacklabalmeria.net/foro/#nabble-f5001631">avísanos en el
+foro</a> por favor.<br>
+</p>
+<div class="row clearfix" id="invitado">
+<h3>Invitado especial</h3>
+<div class="four columns alpha"> <img
+ style="width: 220px; height: 330px;"
+ src="https://pbs.twimg.com/media/ApD2mENCEAE4fPO.jpg"
+ alt="Juan Manuel Amuedo"> </div>
+<div class="eight columns omega">
+<h5><a href="https://twitter.com/colepower">Juan Manuel Amuedo González</a><br>
+</h5>
+<br>
+<p>Desarrollador de software, <a
+ href="http://forum.arduino.cc/index.php?PHPSESSID=271a1n8cirrukeqbl2rdks6ej6&amp;action=profile;u=2563">moderador</a>
+del<a href="http://forum.arduino.cc/index.php/board,32.0.html"> foro
+español Arduino</a>, miembro de <a
+ href="http://www.yorokobu.es/lanave/">LaNaveCC</a>, entusiasta
+tecnológico, defensor de la cultura libre, constructor de i<a
+ href="http://www.reprap.org/">mpresoras reprap 3D open source</a>
+personales, participante en el proyecto <a
+ href="http://www.reprap.org/wiki/Proyecto_Clone_Wars">CloneWars</a>
+y.... un «papi» con curiosidad.</p>
+</div>
+</div>
+</div>
+<div class="doc-section clearfix" id="programa-29">
+<h3>Día 29: Día Arduino<br>
+</h3>
+<div class="cabeceraprograma">
+<p>12:30 - 15:00: 1ª sesión:&nbsp; Juan Manuel Amuedo y «<span
+ style="font-weight: bold;">Arduino, ese gran conocido</span>»<br>
+</p>
+</div>
+<div class="charla">
+<p>15:00 - 16:30: Comida</p>
+</div>
+<div class="cabeceraprograma">
+<p>16:30 - 18:30 Segunda sesión: presentación de proyectos de la
+comunidad<br>
+</p>
+</div>
+<div class="charla">
+<p>18:30 - 18:50: Descanso<br>
+</p>
+</div>
+<div class="cabeceraprograma">
+<p>18:50 - 21:00: Tercera sesión: presentación de proyectos de la
+comunidad </p>
+</div>
+<div class="charla">21:00: Tapeo almeriense<br>
+<br>
+Junto a quienes quieran incorporarse cenaremos de tapas en bares de la
+ciudad.<br>
+</div>
+</div>
+<div class="doc-section clearfix" id="programa-30">
+<h3>Día 30: Taller impresoras 3D open source</h3>
+<div class="cabeceraprograma">
+<p>10:00 - 14:00: Taller de montaje de impresora 3D <a
+ href="http://www.reprap.org/wiki/Proyecto_Clone_Wars">RepRap/CloneWars</a></p>
+<p><br>
+</p>
+<p>Juan Manuel nos ayudará con el montaje de impresoras 3D basadas en
+la familia RepRap/Clonewars.</p>
+<p><br>
+</p>
+<p>Formaremos equipos de montaje de 5 personas máximo. Contaremos al
+menos con una impresora para montar. El resto de asistentes podrá
+observar como público. Podrán
+organizarse tanto equipos como kits de montaje aporten los asistentes.</p>
+<p></p>
+</div>
+<div class="charla">
+<p>14:00 - 15:30: Comida</p>
+</div>
+<div class="cabeceraprograma">
+<p>15:30 - 17:30: Continuación del taller de montaje<br>
+</p>
+</div>
+<div class="charla">
+<p>17:30 Despedida y cierre</p>
+</div>
+</div>
+<hr>
+<div class="doc-section clearfix" id="localizacion">
+<h3>Localización</h3>
+<ul class="square">
+  <li>Lugar: <strong><a href="http://bit.ly/RealTrackSystems">Real
+Track Systems</a></strong>, Almería capital.<strong><a
+ href="http://bit.ly/RealTrackSystems"><br>
+    </a></strong></li>
+  <li>Fecha: <strong>29 y 30 de marzo de 2014</strong></li>
+  <li>Horario: <strong>De 12:30 a 21:00 y 10:00 a 17:30<br>
+    </strong></li>
+</ul>
+</div>
+<hr>
+<div class="doc-section clearfix" id="inscripcion">
+<h3>Inscripción</h3>
+<p>Para pre-registrarte apúntate al <a
+ href="https://plus.google.com/b/118332755793990205162/events/ct40t42t3vhitlv03hc4j5d2qrk">evento
+Google+</a>. No hemos cerrado el detalle del aforo al taller pero
+avisaremos con antelación para que formalicéis vuestra asistencia.<br>
+</p>
+</div>
+<hr>
+<div class="doc-section clearfix" id="realimentacion">
+<h3>Realimentación</h3>
+<p>Servíos de añadir a este <strong><a
+ href="http://canvanizer.com/canvas/BZPIrReiY2o">panel de realimentación</a></strong>
+todos los comentarios y sugerencias que os parezcan oportunos (<a
+ href="http://olea.org/diario/archive/2010/ene-11-1.html">nos
+reservamos el derecho</a> a retirar cualquier entrada que nos parezca
+inapropiada: <a
+ href="https://twitter.com/search?q=%23trollk&amp;f=realtime">#trollK</a>).
+</p>
+</div>
+</div>
+</div>
+<hr>
+<p><small><a href="http://hacklabalmeria.net/"><img
+ style="border: 0px solid ; width: 300px; height: 96px;"
+ alt="logo del HackLab Almería" src="img/HackLab-Almeria.png"></a><a
+ href="http://geekia.es/"><br>
+</a></small></p>
+<!-- content --><!-- container --><!-- JS
+		================================================== -->
+<script
+ src="./Skeleton%20%20Beautiful%20Boilerplate%20for%20Responsive,%20Mobile-Friendly%20Development_files/jquery.min.js"></script>
+<script>
+		$('.hidden-code').click(function(e) {
+			e.preventDefault();
+			$(this).children('.gist').slideToggle();
+		})
+
+		var originalText;
+		$('.example-grid').children().hover(
+			function() {
+				originalText = $(this).text();
+				$(this).html($(this).width()+'px');
+			},
+			function() {
+				$(this).html(originalText);
+			})
+		</script><!-- Google Analytics -->
+<script type="text/javascript">
+
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-33397759-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+
+		</script>
+<script type="text/javascript">
+		var _gauges = _gauges || [];
+		(function() {
+			var t   = document.createElement('script');
+			t.type  = 'text/javascript';
+			t.async = true;
+			t.id    = 'gauges-tracker';
+			t.setAttribute('data-site-id', '4d806d7410cafd7fa4000011');
+			t.src = '//secure.gaug.es/track.js';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(t, s);
+		})();
+		</script>
+</body>
+</html>
