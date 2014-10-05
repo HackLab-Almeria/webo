@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<!-- hecho con Skeleton -->
+<html lang="es">
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <!-- Basic Page Needs
+	================================================== -->
+    <title>Campaña Red TOR 2014</title>
+    <meta name="description" content="Red TOR, privacy, NSA, anonymity, security, TOR relay, campaign, DIY, open hardware, TOR">
+    <meta name="author" content="Ismael Olea">
+    <meta name="author" content="Jesus Marin">
+    <!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>		<![endif]-->
+    <!-- Mobile Specific Metas
+	================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- CSS
+	================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/docs.css">
+    <!-- Favicon
+	================================================== -->
+    <link rel="shortcut icon" href="css/favicon.ico">
+    <style>#adzerk_by {display:none}
+
+	/* vert */
+	.carbonad {background-color:#FBFBFB;border:2px solid #E8E8E8;height:215px;line-height:1.2;width:150px;}
+	.carbonad-img {float:left;height:100px;margin-left:11px;margin-top:11px;width:130px;}
+	.carbonad-text {color:#545454;float:left;font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:normal;height:50px;margin-left:15px;margin-top:9px;width:119px;}
+	.carbonad-text a {color: #545454;text-decoration: none;font-weight: bold;}
+	.carbonad-tag {color:#999999;float:left;font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:normal;margin-left:17px;margin-top:15px;padding-top:5px;}
+	.carbonad-tag a {color: #999999;text-align: center;text-decoration: none;font-weight: bold;}
+</style><link type="text/css" rel="stylesheet" href="chrome-extension://cpngackimfmofbokmjmljamhdncknpmg/style.css">
+    <script type="text/javascript" charset="utf-8" src="chrome-extension://cpngackimfmofbokmjmljamhdncknpmg/page_context.js"></script>
+  </head>
+  <body data-twttr-rendered="true" screen_capture_injected="true">
+    <div class="container">
+      <div class="three columns sidebar">
+        <nav>
+          <ul>
+            <li style="margin: 0px 0px 10px; padding: 0px; border: 0px none; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: 18px; vertical-align: baseline; color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: block;"><a
+                href="#descripcion" style="margin: 0px; padding: 0px; border: 0px none; font-family: inherit; font-size: 14px; font-style: inherit; font-variant: inherit; font-weight: bold; line-height: inherit; vertical-align: baseline; color: rgb(85, 85, 85); text-decoration: none; outline: invert none 0px;">Descripción </a></li>
+            <li style="margin: 0px 0px 10px; padding: 0px; border: 0px none; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: 18px; vertical-align: baseline; color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: block;"><a
+                href="#objetivos" style="margin: 0px; padding: 0px; border: 0px none; font-family: inherit; font-size: 14px; font-style: inherit; font-variant: inherit; font-weight: bold; line-height: inherit; vertical-align: baseline; color: rgb(85, 85, 85); text-decoration: none; outline: invert none 0px;">Objetivos </a></li>
+            <li style="margin: 0px 0px 10px; padding: 0px; border: 0px none; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: 18px; vertical-align: baseline; color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: block;"><a
+                href="#actividades" style="margin: 0px; padding: 0px; border: 0px none; font-family: inherit; font-size: 14px; font-style: inherit; font-variant: inherit; font-weight: bold; line-height: inherit; vertical-align: baseline; color: rgb(85, 85, 85); text-decoration: none; outline: invert none 0px;">Actividades </a></li>
+            <li style="margin: 0px 0px 10px; padding: 0px; border: 0px none; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: 18px; vertical-align: baseline; color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: block;"><a
+                href="#calendario" style="margin: 0px; padding: 0px; border: 0px none; font-family: inherit; font-size: 14px; font-style: inherit; font-variant: inherit; font-weight: bold; line-height: inherit; vertical-align: baseline; color: rgb(85, 85, 85); text-decoration: none; outline: invert none 0px;">Calendario </a></li>
+            <li style="margin: 0px 0px 10px; padding: 0px; border: 0px none; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: 18px; vertical-align: baseline; color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: block;"><a
+                href="#criptofiesta" style="margin: 0px; padding: 0px; border: 0px none; font-family: inherit; font-size: 14px; font-style: inherit; font-variant: inherit; font-weight: bold; line-height: inherit; vertical-align: baseline; color: rgb(85, 85, 85); text-decoration: none; outline: invert none 0px;">Criptofiesta </a></li>
+            <li style="margin: 0px 0px 10px; padding: 0px; border: 0px none; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: 18px; vertical-align: baseline; color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: block;"><a
+                href="#contacto" style="margin: 0px; padding: 0px; border: 0px none; font-family: inherit; font-size: 14px; font-style: inherit; font-variant: inherit; font-weight: bold; line-height: inherit; vertical-align: baseline; color: rgb(85, 85, 85); text-decoration: none; outline: invert none 0px;">Contacto </a></li>
+            <li style="margin: 0px 0px 10px; padding: 0px; border: 0px none; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: 18px; vertical-align: baseline; color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: block;"><a
+                href="#nodos" style="margin: 0px; padding: 0px; border: 0px none; font-family: inherit; font-size: 14px; font-style: inherit; font-variant: inherit; font-weight: bold; line-height: inherit; vertical-align: baseline; color: rgb(85, 85, 85); text-decoration: none; outline: invert none 0px;">Nodos conseguidos </a></li>
+          </ul>
+          <div> <a href="#logotipos"> </a>
+            <div style="margin: 0px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; line-height: 21px; vertical-align: baseline; color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(0, 0, 0);"> <a
+                href="https://www.eff.org/torchallenge/" style="margin: 0px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; color: rgb(51, 51, 51); text-decoration: underline; outline: 0px;"><img
+                  id="BG_1394906292661_2084" alt="Tor challenge" src="img/tor_challenge_logo.png"
+                  style="margin: 0px; padding: 0px; border: 0px solid; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; max-width: 100%; height: 160px; width: 160px;"
+                  align="right"></a> </div>
+            <br style="color: rgb(68, 68, 68); font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">
+            <a href="https://www.torproject.org/" style="margin: 0px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; line-height: 21px; vertical-align: baseline; color: rgb(51, 51, 51); text-decoration: underline; outline: 0px; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(0, 0, 0);"><img
+                alt="Tor Project" src="img/logo-tor.png" style="margin: 0px; padding: 0px; border: 0px solid; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; max-width: 100%; height: 117px; width: 200px;"
+                align="right"></a><span style="color: rgb(68, 68, 68); font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 21px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;"></span> </div>
+        </nav>
+        &nbsp; </div>
+      <div class="twelve columns offset-by-one content">
+        <header>
+          <h1 data-skip="true" style="margin: 0px 0px 14px; padding: 0px; border: 0px none; font-family: Montserrat, sans-serif; font-size: 52px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 47px; vertical-align: baseline; color: rgb(24, 24, 24); orphans: auto; text-align: start; text-indent: 0px; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; letter-spacing: -2px; text-transform: uppercase; background-color: rgb(255, 255, 255);">CAMPAÑA RED TOR 2014 </h1>
+          <h2 style="margin: 30px 0px 10px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 35px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 40px; vertical-align: baseline; color: rgb(24, 24, 24); letter-spacing: -1px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">25 de octubre al 20 de diciembre de 2014 / Almería</h2>
+        </header>
+        <hr class="large">
+        <div class="doc-section" id="descripcion">
+          <h3 style="margin: 0px 0px 20px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 28px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 34px; vertical-align: baseline; color: rgb(24, 24, 24); text-transform: uppercase; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">DESCRIPCIÓN</h3>
+          <p style="margin: 0px 0px 20px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; line-height: 21px; vertical-align: baseline; color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);"> Privacidad, libertad y anonimato son derechos fundamentales del internauta que están en jaque. Diversas empresas y entidades gubernamentales anteponen sus intereses a los mencionados derechos, mediante herramientas de espionaje, censura y control. Son muchos los ejemplos a nuestro alrededor, como la censura de internet en China o la polémica <a
+              href="http://en.wikipedia.org/wiki/Global_surveillance_disclosures_%282013%E2%80%93present%29">«monitorización de tráfico» de la NSA</a>.</p>
+          <p style="margin: 0px 0px 20px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; line-height: 21px; vertical-align: baseline; color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);"> La red TOR nos permite defender estos derechos de una forma fiable y segura.</p>
+          <p style="margin: 0px 0px 20px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; line-height: 21px; vertical-align: baseline; color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);"> La intención de la campaña es llevar la tecnología de TOR a la calle, enseñar a utilizar esta red y animar a la creación de nodos. Esperamos que estas acciones ayuden a hacer de internet un lugar más seguro.&nbsp;</p>
+          <hr>
+          <div class="row clearfix" id="objetivos">
+            <h3 style="margin: 0px 0px 20px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 28px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 34px; vertical-align: baseline; color: rgb(24, 24, 24); text-transform: uppercase; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">OBJETIVOS</h3>
+            <ul class="square" style="margin: 0px 0px 20px 30px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; line-height: 21px; vertical-align: baseline; list-style: square outside; color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">
+              <li style="margin: 0px 0px 12px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: 18px; vertical-align: baseline;">Lograr la creación de un mínimo de 20 nodos TOR&nbsp; (intermedios, de entrada o de salida) en la provincia.</li>
+              <li style="margin: 0px 0px 12px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: 18px; vertical-align: baseline;">Levantar nodos en 4 o más municipios diferentes de la provincia.</li>
+              <li style="margin: 0px 0px 12px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: 18px; vertical-align: baseline;">Hacer llegar nuestra campaña a 5 o más centros u organizaciones.</li>
+              <li style="margin: 0px 0px 12px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: 18px; vertical-align: baseline;">Impartir mínimo una vez la conferencia «Tus derechos digitales: privacidad y anonimato con TOR».</li>
+              <li style="margin: 0px 0px 12px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: 18px; vertical-align: baseline;">Obtener un mínimo de 3 referencias en prensa.</li>
+              <li style="margin: 0px 0px 12px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: 18px; vertical-align: baseline;">Alcanzar 5 miembros nuevos a <a
+                  href="http://hacklabalmeria.net/foro/#nabble-f5002495">GESIAL (Grupo de Estudio Seguridad Informática de Almería)</a>.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="doc-section clearfix" id="programa">
+            <div class="doc-section clearfix" id="actividades" style="margin: 30px 0px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; line-height: 21px; vertical-align: baseline; zoom: 1; color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">
+              <h3 style="margin: 0px 0px 20px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 28px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 34px; vertical-align: baseline; color: rgb(24, 24, 24); text-transform: uppercase; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">ACTIVIDADES</h3>
+              <p style="margin: 0px 0px 20px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; line-height: 21px; vertical-align: baseline; color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);"> La campaña comenzará con una criptofiesta, donde se realizarán diversas charlas de nivel básico y avanzado. Estas charlas se repetirán en futuros encuentros a razón de intentar llegar al máximo público posible.</p>
+              <p style="margin: 0px 0px 20px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; line-height: 21px; vertical-align: baseline; color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);"> El grueso principal de la actividad se realizará en el espacio de distintas organizaciones o entidades interesadas. Comenzará con una introducción a TOR, donde se explicará de forma básica en que consiste. Posteriormente, se realizarán uno o los dos talleres «Aprender a conectarte a TOR» y «Llévate un nodo TOR a casa». </p>
+            </div>
+          </div>
+          <div class="doc-section clearfix" id="calendario" style="margin: 30px 0px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; line-height: 21px; vertical-align: baseline; zoom: 1; color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">
+            <h3 style="margin: 0px 0px 20px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 28px; font-style: inherit; font-variant: inherit; font-weight: 400; line-height: 34px; vertical-align: baseline; color: rgb(24, 24, 24); text-transform: uppercase;">CALENDARIO</h3>
+            <div class="cabeceraprograma" style="margin: 0px; padding: 20px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; background-color: rgb(51, 51, 51); color: rgb(204, 204, 204); background-position: initial initial; background-repeat: initial initial;">
+              <ul class="square">
+                <li style="margin: 0px 0px 12px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: 18px; vertical-align: baseline;">Actividad: Criptofiesta</li>
+                <li style="margin: 0px 0px 12px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: 18px; vertical-align: baseline;">Lugar: Jornadas HackLab Almería, El Ejido</li>
+                <li style="margin: 0px 0px 12px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: 18px; vertical-align: baseline;">Fecha: 24, 25 y 26 de Octubre</li>
+              </ul>
+            </div>
+            <!--<div class="charla" style="margin: 0px; padding: 20px; border-width: 0px 0px 1px; border-bottom-style: solid; border-bottom-color: rgb(255, 255, 255); font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; background-color: rgb(239, 239, 239); background-position: initial initial; background-repeat: initial initial;">
+                          </div>--> </div>
+        </div>
+        <hr>
+        <div class="doc-section clearfix" id="criptofiesta">
+          <h3 style="margin: 0px 0px 20px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 28px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 34px; vertical-align: baseline; color: rgb(24, 24, 24); text-transform: uppercase; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">CRIPTOFIESTA</h3>
+          <p style="margin: 0px 0px 20px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; line-height: 21px; vertical-align: baseline; color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);"> La criptofiesta será la primera actividad de la campaña, que se realizará contenida en las Jornadas HackLab Almería en El Ejido los días 24, 25 y 26 de octubre.</p>
+          <p style="margin: 0px 0px 20px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; line-height: 21px; vertical-align: baseline; color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);"> La actividad contendrá distintas charlas de introducción así como avanzadas, talleres y demostraciones de herramientas de interés. El detalle del programa lo encontraréis en la página del evento.</p>
+        </div>
+        <hr>
+        <div class="doc-section clearfix" id="contacto">
+          <h3 style="margin: 0px 0px 20px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 28px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 34px; vertical-align: baseline; color: rgb(24, 24, 24); text-transform: uppercase; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">CONTACTO</h3>
+          <p style="margin: 0px 0px 20px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; line-height: 21px; vertical-align: baseline; color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);"> Si formas parte de una asociación, entidad o colectivo y estás interesado en colaborar con la campaña o quieres que la llevemos hasta ti contáctanos por correo-e en la dirección <a
+              href="mailto:TORAlm@hacklabalmeria.net">TORAlm@hacklabalmeria.net</a>.</p>
+        </div>
+        <hr>
+        <div class="doc-section clearfix" id="nodos">
+          <h3 style="margin: 0px 0px 20px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 28px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 34px; vertical-align: baseline; color: rgb(24, 24, 24); text-transform: uppercase; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">NODOS CONSEGUIDOS</h3>
+          <p style="margin: 0px 0px 20px; padding: 0px; border: 0px; font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; line-height: 21px; vertical-align: baseline; color: rgb(68, 68, 68); letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);"> 0/20 nodos desde el 25/10/2014</p>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div style="text-align: right;"><a href="http://hacklabalmeria.net/"><img
+          style="vertical-align: baseline; max-width: 100%; height: 120px; width: 120px; "
+          alt="logotipo del HackLab Almería" src="../../recursos/logo-225x225.png"></a></div>
+    <p> </p>
+    <!-- content -->
+    <!-- container -->
+    <!-- JS
+		================================================== -->
+    <script src="./Skeleton%20%20Beautiful%20Boilerplate%20for%20Responsive,%20Mobile-Friendly%20Development_files/jquery.min.js"></script>
+    <script>
+		$('.hidden-code').click(function(e) {
+			e.preventDefault();
+			$(this).children('.gist').slideToggle();
+		})
+
+		var originalText;
+		$('.example-grid').children().hover(
+			function() {
+				originalText = $(this).text();
+				$(this).html($(this).width()+'px');
+			},
+			function() {
+				$(this).html(originalText);
+			})
+		</script>
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-33397759-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+
+		</script>
+    <script type="text/javascript">
+		var _gauges = _gauges || [];
+		(function() {
+			var t   = document.createElement('script');
+			t.type  = 'text/javascript';
+			t.async = true;
+			t.id    = 'gauges-tracker';
+			t.setAttribute('data-site-id', '4d806d7410cafd7fa4000011');
+			t.src = '//secure.gaug.es/track.js';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(t, s);
+		})();
+		</script>
+  </body>
+</html>
