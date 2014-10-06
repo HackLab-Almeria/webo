@@ -91,7 +91,7 @@ ul li{
 
 .image2 {
     position:relative;
-    background: url('/imagenes/fondo2.jpg') no-repeat fixed;
+    background: url('fondo2.jpg') no-repeat fixed;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -103,7 +103,7 @@ ul li{
 
 .image3 {
     position:relative;
-    background: url('/imagenes/fondo3.jpg') no-repeat fixed;
+    background: url('fondo3.jpg') no-repeat fixed;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -115,7 +115,7 @@ ul li{
 
 .image4 {
     position:relative;
-    background: url('/imagenes/fondo4.jpg') no-repeat fixed;
+    background: url('fondo4.jpg') no-repeat fixed;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -127,7 +127,7 @@ ul li{
 
 .image5 {
     position:relative;
-    background: url('/imagenes/fondo1.jpg') no-repeat fixed;
+    background: url('fondo1.jpg') no-repeat fixed;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
