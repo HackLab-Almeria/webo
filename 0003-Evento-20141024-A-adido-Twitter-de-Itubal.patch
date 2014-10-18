@@ -1,0 +1,29 @@
+From 9d9e3e2cfc22bb12d9282edeb6cfc94161569cb3 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Rub=C3=A9n=20G=C3=B3mez=20Antol=C3=AD?= <razlobo@orusem>
+Date: Fri, 17 Oct 2014 12:10:43 +0200
+Subject: [PATCH 3/4] =?UTF-8?q?Evento=2020141024:=20A=C3=B1adido=20Twitter?=
+ =?UTF-8?q?=20de=20Itubal.?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+---
+ evento/20141024/index.html | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/evento/20141024/index.html b/evento/20141024/index.html
+index 07d3793..1d92d93 100644
+--- a/evento/20141024/index.html
++++ b/evento/20141024/index.html
+@@ -165,7 +165,7 @@
+             </li>
+             <li> <span class="horario">17:05 - 17:45</span> <strong class="titulo_charla">Introducción a la electrónica libre y a las Herramientas libres de electrónica</strong>
+               <p> <span class="gris">Por: <strong>José María Martínez García</strong>, <a
+-                    href="https://twitter.com/">@Itubal</a>.</span> </p>
++                    href="https://twitter.com/itubalibre">@Itubalibre</a>.</span> </p>
+             </li>
+             <li> <span class="horario">18:05 - 18:45</span> <strong class="titulo_charla">Diseño electrónico avanzado con gEDA</strong>
+               <p> <span class="gris">Por: <strong>Gabriel Paubert</strong>, desarrollador en el proyecto <a
+-- 
+2.1.1
+

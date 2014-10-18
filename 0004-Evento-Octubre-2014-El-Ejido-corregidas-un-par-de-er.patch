@@ -1,0 +1,39 @@
+From a86fa52ee9db50149e96aa4c6bb45c1b4ce091f8 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Rub=C3=A9n=20G=C3=B3mez=20Antol=C3=AD?= <razlobo@orusem>
+Date: Sat, 18 Oct 2014 12:55:22 +0200
+Subject: [PATCH 4/4] =?UTF-8?q?Evento=20Octubre=202014,=20El=20Ejido:=20co?=
+ =?UTF-8?q?rregidas=20un=20par=20de=20erratas.=20Se=20a=C3=B1ade=20enlace?=
+ =?UTF-8?q?=20a=20las=20bases=20del=20reto.?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+---
+ evento/20141024/index.html | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/evento/20141024/index.html b/evento/20141024/index.html
+index c48b4a8..7d0de21 100644
+--- a/evento/20141024/index.html
++++ b/evento/20141024/index.html
+@@ -62,7 +62,7 @@
+     <section class="content contenedor_2">
+       <h2>¿Qué son las Jornadas Hacklab Almería?</h2>
+       <p> Las <strong>Jornadas Hacklab Almería</strong> es un evento <strong>organizado por el <a
+-            class="enlace_naranja" href="http://hacklabalmeria.net">Hacklab Almería</a></strong>, el colectivo de experimentación tecnológica, social y artística, para convocar a profesionales, aficionados y curiosos de las últimas novedades en cuanto a <strong>hardware y software</strong> se refiere. </p>
++            class="enlace_naranja" href="http://hacklabalmeria.net">Hacklab Almería</a></strong>, colectivo de experimentación tecnológica, social y creativa, en colaboración con <strong> area de cultura del ayuntamiento de El Ejido y la asociación ingenieril de Almería</strong> para convocar a profesionales, aficionados y curiosos de las últimas novedades en cuanto a <strong>hardware y software</strong> se refiere. </p>
+       <p> Nuestra intención es mostrar al público, ya sea profesional o aficionado, lo que se puede llegar a hacer con el hardware y el software de última generación, enseñar nuevas técnicas y métodos de programación, las últimas novedades del sector, mostrar soluciones libres y un sin fín de propuestas que acerquen a nuestros visitantes todo tipo de información. </p>
+       <p><span style="font-weight: bold;">#GenteQueHaceCosas</span></p>
+       <p> Si necesitas más información sobre el evento, no dudes en contactar con nosotros: <a
+@@ -75,7 +75,7 @@
+       <p>Durante los tres días que duran las jornadas se celebrarán varios bloques de actividades:
+         <ul>
+         <li> Taller de montaje, configuración y puesta en marcha de Impresoras 3D y un cursillo de diseño de piezas. </li>
+-        <li> Reto Hacklab, donde distintos equipos desarrollarán un prototipo con Arduino y sistemas embebidos para resolver una problemática sobre un tema dado. </li>
++        <li> Reto Hacklab, donde distintos equipos desarrollarán un prototipo con Arduino y sistemas embebidos para resolver una problemática sobre un tema dado. (Las bases se pueden descargar desde <a href="http://hacklab-almeria.15969.x6.nabble.com/attachment/5003300/0/Untitled%201.odt;cid=1413629570294-54"> aqui </a>.) </li>
+         <li> Criptofiesta: sesiones de trabajo varias sobre seguridad informática, red Tor, etc. </li>
+         <li> Charlas y talleres varios, en tres sesiones orientadas a negocios, electrónica e informática.</li>
+         </ul> </p>
+-- 
+2.1.1
+

@@ -1,0 +1,16 @@
+--- evento/20141024/index.html
++++ evento/20141024/index.html
+@@ -163,10 +178,9 @@
+                     href="http://hacklabalmeria.net/">HacklLab Almería</a>,</span><span
+                   class="gris"></span><span class="gris"></span> </p>
+             </li>
+-            <li> <span class="horario">17:05 - 17:45</span> <strong class="titulo_charla">Videoconferencia: Cooking-Hacks: Plataforma e-Healt y medición de radiación con Arduino</strong>
+-              <p> <span class="gris">Por: <strong>David Bordonada</strong>, <a
+-                    href="https://twitter.com/D0omY">@D0omY</a>. <a href="http://www.libelium.com/">Libelium</a> / <a
+-                    href="http://www.cooking-hacks.com/">Cooking Hacks</a></span> </p>
++            <li> <span class="horario">17:05 - 17:45</span> <strong class="titulo_charla">Introducción a la electrónica libre y a las Herramientas libres de electrónica</strong>
++              <p> <span class="gris">Por: <strong>José María Martínez García</strong>, <a
++                    href="https://twitter.com/">@Itubal</a>.</span> </p>
+             </li>
+             <li> <span class="horario">18:05 - 18:45</span> <strong class="titulo_charla">Diseño electrónico avanzado con gEDA</strong>
+               <p> <span class="gris">Por: <strong>Gabriel Paubert</strong>, desarrollador en el proyecto <a
