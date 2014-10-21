@@ -1,0 +1,186 @@
+From e55108d1f01a2a90c464868a49153ec3d1154c86 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Rub=C3=A9n=20G=C3=B3mez=20Antol=C3=AD?= <razlobo@orusem>
+Date: Tue, 21 Oct 2014 17:15:29 +0200
+Subject: [PATCH 5/5] =?UTF-8?q?Evento=20octubre=202014:=20A=C3=B1adido=20l?=
+ =?UTF-8?q?ogo=20patrocinadores.=20Cambios=20varios:=20precio=20entrada=20?=
+ =?UTF-8?q?reto,=20y=20otros.?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+---
+ evento/20141024/imagenes/culturaejido.jpg | Bin 0 -> 5450 bytes
+ evento/20141024/index.html                |  17 ++++++++++++-----
+ 2 files changed, 12 insertions(+), 5 deletions(-)
+ create mode 100644 evento/20141024/imagenes/culturaejido.jpg
+
+diff --git a/evento/20141024/imagenes/culturaejido.jpg b/evento/20141024/imagenes/culturaejido.jpg
+new file mode 100644
+index 0000000000000000000000000000000000000000..65f7a8d0a41d0028540d26575e478caf1bfbfcb0
+GIT binary patch
+literal 5450
+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
+Vp})ZeKy@WS?nO92@?Sch{14%K3pW4&
+
+literal 0
+HcmV?d00001
+
+diff --git a/evento/20141024/index.html b/evento/20141024/index.html
+index 7d0de21..3f16356 100644
+--- a/evento/20141024/index.html
++++ b/evento/20141024/index.html
+@@ -278,7 +278,7 @@
+           <p> <strong>Sábado, todo el día</strong>: </p>
+           <ul>
+             <li> <strong class="titulo_charla">Montaje de impresoras 3D. Precios por confirmar según modelos a adquirir</strong> </li>
+-            <li> <strong class="titulo_charla">Reto Hacklab. PRECIO: 20 €</strong> </li>
++            <li> <strong class="titulo_charla">Reto Hacklab. PRECIO: 5 €</strong> (Incluye 10 tickets de bebida.) </li>
+             <li> <strong class="titulo_charla">Puestos: Andalucia compromiso digital, Hacklab, Impresoras 3D</strong> </li>
+ 
+           </ul>
+@@ -307,7 +307,8 @@
+         <li>
+           <p> <strong>Otros talleres</strong> </p>
+           <ul>
+-            <li> <span class="horario">10:00 - 13:00</span> <strong class="titulo_charla">Reto Hacklab. PRECIO: 20 €</strong> </li>
++
++          <li> <span class="horario">10:00 - 13:00</span> <strong class="titulo_charla">Reto Hacklab. PRECIO: 5 € (Incluye 10 tickets de bebida.)</strong> </li>
+             <li> <span class="horario">10:00 - 13:00</span> <strong class="titulo_charla">Montaje de impresoras 3D. Precios por confirmar según modelos a adquirir</strong> </li>
+           </ul>
+         </li>
+@@ -318,7 +319,7 @@
+     <section class="content contenedor_3">
+       <h2>Cómo llegar</h2>
+       <div id="map">&nbsp;</div>
+-      <p> Las jornadas tienen <strong style="color: #FF5A1F;">entrada GRATUITA</strong>. y se celebran en la antigua <strong> Biblioteca y Teatro Municipal de El Ejido</strong>.<br>
++      <p> Las jornadas tienen <strong style="color: #FF5A1F;">entrada GRATUITA</strong> (e incluyen un bono-descuento en Hamburgueseria Angelo). y se celebran en la antigua <strong> Biblioteca y Teatro Municipal de El Ejido</strong>.<br>
+         <br>
+         Dirección: <br>
+         <br>
+@@ -341,7 +342,7 @@
+           <div class="ficha_enlacepie"> Organiza: <br>
+             <a href="http://hacklabalmeria.net/" title="Hacklab Almería"
+               target="_blank"><img src="imagenes/hacklab.jpg" alt="HackLab Almería"></a><br>
+-            <a href="http://www.elejido.org/" title="Ayuntamiento de El Ejido"
++            <a href="http://www.elejido.org/" title="Area de cultura del Ayuntamiento de El Ejido"
+               target="_blank"><img src="imagenes/elejido.jpg" alt="Ayuntamiento de El Ejido"></a><br>
+           </div>
+           <div class="ficha_enlacepie"> Colabora: <br>
+@@ -361,7 +362,13 @@
+ 			</a><br/>
+ 
+           </div>
+-          <div class="ficha_enlacepie"> Patrocina: <br>
++	  <div class="ficha_enlacepie"> Patrocina: <br>
++		<a href="http://indalweb.net" title="Indalweb" target= "_blank"><img
++		src="imagenes/indalweb.jpg" alt="IndalWeb"></a><br>
++		<a href="http://cultura.ciudadelejido.com/" title="Cultura El Ejido" target="_blank"><img
++		src="imagenes/culturaejido.jpg" alt="Cultura El Ejido"></a><br>
++	  </div>
++          <div class="ficha_enlacepie"> Patrocina los premios del reto: <br>
+             <a href="http://blog.bricogeek.com/" title="Brico Geek" target="_blank"><img
+                 src="imagenes/bricogeek.jpg" alt="Brico Geek"></a><br>
+           </div>
+-- 
+2.1.1
+
