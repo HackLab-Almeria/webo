@@ -140,15 +140,40 @@
 		color:#ccc;
 
 	}
+
+	table {
+		width: 100%;
+	}
+
+	td {
+		background:#333;
+		padding:20px;
+		color:#ccc;
+		width: 100px;
+		text-align: center;
+		vertical-align: middle;
+	}
+
+	td + td {
+		width: auto;
+		background:#efefef;
+		padding:20px;
+		border-bottom:solid 1px #fff;
+		color: #444;
+		text-align: left;
+	}
+
+	table strong {
+		display: block;
+	}
+
 	.charla{
 		background:#efefef;
 		padding:20px;
 		border-bottom:solid 1px #fff;
 
 	}
-		.charla p, .cabeceraprograma p{
-			margin:0;
-		}
+
 
 	.resize {
 		position: fixed;
