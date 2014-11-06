@@ -176,6 +176,14 @@
 			var s = document.getElementsByTagName('script')[0];
 			s.parentNode.insertBefore(t, s);
 		})();
-		</script> </div>
+		</script>
+    <script src="js/cookiechoices.js"></script>
+    <script type="text/javascript">
+      document.addEventListener('DOMContentLoaded', function(event) {
+    cookieChoices.showCookieConsentBar('Esta Página utiliza Cookies de Terceros. Si continua Navegando Acepta Dichas Cookies',
+      'Entendido', 'Más Información', 'http://cookiechoices.org');
+  });
+    </script>
+     </div>
   </body>
 </html>
