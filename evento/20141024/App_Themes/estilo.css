@@ -338,7 +338,7 @@ li a:hover{
 /*---------- Estilo tabla datos identificativos ------------*/
 
 #tabla_datos{
-	padding: 10px 0px 15px 0px;
+	padding: 10px 0 15px 0;
 	width: 680px;
 }
 .borde_tabla{

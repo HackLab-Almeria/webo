@@ -10,19 +10,19 @@
 
 
 .sidebar li {
-	margin: 0px 0px 10px; 
-	padding: 0px; 
+	margin: 0 0 10px;
+	padding: 0;
 	line-height: 18px; 
 	color: rgb(68, 68, 68); 
-	text-indent: 0px; 
+	text-indent: 0;
 	display: block;
 
 }
 
 .sidebar a {
-	margin: 0px; 
-	padding: 0px;
-	 border: 0px none; 
+	margin: 0;
+	padding: 0;
+	 border: 0 none;
 	 font-family: inherit; 
 	 font-size: 14px; 
 	 font-weight: bold;
